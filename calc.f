@@ -1,3 +1,4 @@
+c     subroutine calc is to calculate the area of a circle.
       subroutine calc(r)
       real area, r
 	
@@ -7,7 +8,6 @@
       write(*,*)'area:',area
 	  
       write(*,*)'finished'
-      write(*,*) 'reallY?'
 	
       return
       end subroutine calc
